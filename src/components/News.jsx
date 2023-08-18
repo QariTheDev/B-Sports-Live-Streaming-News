@@ -9,7 +9,7 @@ function News() {
 
   // const colorList = ['purple', 'rose', 'yellow', 'green', 'sky', 'indigo', 'pink'];
 
-  const apikey = "3bb9e7d17ac641679625ed1bf2047925";
+  const apikey = API_KEY;
   const category = "sports";
   const [articles, setArticles] = useState([]);
   
